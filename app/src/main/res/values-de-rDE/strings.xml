@@ -187,9 +187,9 @@
     <string name="hintPass">Passwort</string>
     <string name="errorLogin">Benutzername oder Passwort stimmen nicht</string>
     <string name="errorWeb">Kein Internetzugang. Netzwerkverbindung überprüfen.</string>
-    <string name="txtInfoLoginOk">Benutzer gespeichert</string>
-    <string name="txtInfoLoginNo">Benutzer nicht gespeichert</string>
-    <string name="product_does_not_exist_please_add_it">Das eingelesene Produkt existiert noch nicht in „Open Food Facts”. Bitte fügen Sie es hinzu.</string>
+    <string name="txtInfoLoginOk">Sie haben sich erfolgreich bei Ihrem Open Food Facts-Konto angemeldet.</string>
+    <string name="txtInfoLoginNo">Anmelden bei Ihrem Open Food Facts-Konto fehlgeschlagen.</string>
+    <string name="product_does_not_exist_please_add_it">Das eingelesene Produkt existiert noch nicht in Open Pet Food Facts. Bitte fügen Sie es hinzu.</string>
     <string name="txtYes">Ja</string>
     <string name="txtNo">Nein</string>
     <string name="hintBrand">Marke</string>
