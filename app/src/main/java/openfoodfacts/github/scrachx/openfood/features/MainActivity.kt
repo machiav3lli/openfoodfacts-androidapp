@@ -93,7 +93,7 @@ import openfoodfacts.github.scrachx.openfood.listeners.CommonBottomListenerInsta
 import openfoodfacts.github.scrachx.openfood.listeners.CommonBottomListenerInstaller.selectNavigationItem
 import openfoodfacts.github.scrachx.openfood.models.Product
 import openfoodfacts.github.scrachx.openfood.models.ProductImageField
-import openfoodfacts.github.scrachx.openfood.network.OpenFoodAPIClient
+import openfoodfacts.github.scrachx.openfood.repositories.ProductRepository
 import openfoodfacts.github.scrachx.openfood.utils.*
 import openfoodfacts.github.scrachx.openfood.utils.NavigationDrawerListener.*
 import openfoodfacts.github.scrachx.openfood.utils.NavigationDrawerListener.Companion.ITEM_ABOUT
@@ -131,7 +131,7 @@ class MainActivity : BaseActivity(), NavigationDrawerListener {
     private val binding get() = _binding!!
 
     @Inject
-    lateinit var apiClient: OpenFoodAPIClient
+    lateinit var apiClient: ProductRepository
 
     @Inject
     lateinit var matomoAnalytics: MatomoAnalytics
